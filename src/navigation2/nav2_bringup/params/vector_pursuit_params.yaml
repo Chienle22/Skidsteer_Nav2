@@ -1,0 +1,690 @@
+# ============================================================
+# NAV2 PARAMETERS - VECTOR PURSUIT
+# Robot: 4-wheel skid-steer
+# ROS 2 Humble
+# ============================================================
+
+
+# ============================================================
+# 1. BT NAVIGATOR
+# ============================================================
+bt_navigator:
+  ros__parameters:
+    use_sim_time: false
+    # false: sử dụng thời gian thực của robot
+    # true: dùng /clock, thường dùng trong simulation
+
+    global_frame: map
+    # Hệ tọa độ toàn cục của hệ thống navigation
+
+    robot_base_frame: base_link
+    # Frame đại diện cho thân robot
+
+    odom_topic: /odom
+    # Topic odometry của robot
+
+    bt_loop_duration: 10
+    # Chu kỳ xử lý Behavior Tree, đơn vị ms
+
+    default_server_timeout: 20
+    # Thời gian timeout mặc định cho các action/service
+
+    wait_for_service_timeout: 1000
+    # Thời gian chờ service, đơn vị ms
+
+    navigators: ["navigate_to_pose", "navigate_through_poses"]
+
+    navigate_to_pose:
+      plugin: "nav2_bt_navigator::NavigateToPoseNavigator"
+
+    navigate_through_poses:
+      plugin: "nav2_bt_navigator::NavigateThroughPosesNavigator"
+
+    # Các BT node plugin mà Nav2 có thể sử dụng
+    plugin_lib_names:
+      - nav2_compute_path_to_pose_action_bt_node
+      - nav2_compute_path_through_poses_action_bt_node
+      - nav2_smooth_path_action_bt_node
+      - nav2_follow_path_action_bt_node
+      - nav2_spin_action_bt_node
+      - nav2_wait_action_bt_node
+      - nav2_assisted_teleop_action_bt_node
+      - nav2_back_up_action_bt_node
+      - nav2_drive_on_heading_bt_node
+      - nav2_clear_costmap_service_bt_node
+      - nav2_is_stuck_condition_bt_node
+      - nav2_goal_reached_condition_bt_node
+      - nav2_goal_updated_condition_bt_node
+      - nav2_globally_updated_goal_condition_bt_node
+      - nav2_goal_update_node_bt_node
+      - nav2_reinitialize_global_localization_service_bt_node
+      - nav2_rate_controller_bt_node
+      - nav2_distance_controller_bt_node
+      - nav2_speed_controller_bt_node
+      - nav2_truncate_path_action_bt_node
+      - nav2_truncate_path_local_action_bt_node
+      - nav2_goal_updater_node_bt_node
+      - nav2_recovery_node_bt_node
+      - nav2_pipeline_sequence_bt_node
+      - nav2_round_robin_node_bt_node
+      - nav2_transform_available_condition_bt_node
+      - nav2_time_expired_condition_bt_node
+      - nav2_distance_traveled_condition_bt_node
+      - nav2_single_trigger_bt_node
+      - nav2_is_battery_low_condition_bt_node
+      - nav2_is_battery_charging_condition_bt_node
+
+
+bt_navigator_navigate_to_pose_rclcpp_node:
+  ros__parameters:
+    use_sim_time: false
+
+
+bt_navigator_navigate_through_poses_rclcpp_node:
+  ros__parameters:
+    use_sim_time: false
+
+
+# ============================================================
+# 2. CONTROLLER SERVER
+# ============================================================
+controller_server:
+  ros__parameters:
+
+    use_sim_time: false
+    # Sử dụng thời gian thực
+
+    controller_frequency: 20.0
+    # Controller tính toán cmd_vel 20 lần/giây = 20 Hz
+
+    min_x_velocity_threshold: 0.001
+    # Vận tốc tiến rất nhỏ dưới ngưỡng này được xem là 0
+
+    min_y_velocity_threshold: 0.001
+    # Ngưỡng vận tốc ngang
+    # Skid-steer không có chuyển động ngang độc lập -> đặt nhỏ
+
+    min_theta_velocity_threshold: 0.001
+    # Vận tốc quay rất nhỏ dưới ngưỡng này được xem là 0
+
+
+    # --------------------------------------------------------
+    # Progress Checker
+    # --------------------------------------------------------
+    progress_checker_plugins: ["progress_checker"]
+
+    progress_checker:
+      plugin: "nav2_controller::SimpleProgressChecker"
+
+      required_movement_radius: 0.5
+      # Robot phải di chuyển ít nhất 0.5 m
+      # để được xem là đang có tiến triển
+
+      movement_time_allowance: 10.0
+      # Nếu trong 10 giây robot không tiến triển đủ
+      # -> Nav2 có thể coi robot bị kẹt
+
+
+    # --------------------------------------------------------
+    # Goal Checker
+    # --------------------------------------------------------
+    goal_checker_plugins: ["goal_checker"]
+
+    goal_checker:
+      plugin: "nav2_controller::SimpleGoalChecker"
+
+      xy_goal_tolerance: 0.25
+      # Sai số vị trí cho phép = 25 cm
+
+      yaw_goal_tolerance: 0.25
+      # Sai số góc cho phép = 0.25 rad ≈ 14.3 độ
+
+      stateful: true
+      # Duy trì trạng thái goal checker
+      # giúp tránh dao động không cần thiết gần goal
+
+
+    # --------------------------------------------------------
+    # Controller được sử dụng
+    # --------------------------------------------------------
+    controller_plugins: ["FollowPath"]
+
+
+    # ========================================================
+    # VECTOR PURSUIT CONTROLLER
+    # ========================================================
+    FollowPath:
+      plugin: "vector_pursuit_controller::VectorPursuitController"
+      # Controller chính: Vector Pursuit
+
+
+      # ------------------------------------------------------
+      # Hệ số điều khiển
+      # ------------------------------------------------------
+      k: 6.0
+      # Hệ số của Vector Pursuit
+      # Ảnh hưởng đến mức độ phản ứng của controller
+      # với hướng/sai lệch của path
+
+
+      # ------------------------------------------------------
+      # Vận tốc
+      # ------------------------------------------------------
+      desired_linear_vel: 1.0
+      # Vận tốc tuyến tính mong muốn = 1.0 m/s
+      # Controller có thể tự giảm tốc dựa trên:
+      # - độ cong
+      # - costmap
+      # - nguy cơ va chạm
+
+
+      min_linear_velocity: 0.0
+      # Vận tốc tuyến tính nhỏ nhất
+
+
+      min_approach_linear_velocity: 0.05
+      # Vận tốc nhỏ nhất khi robot đang tiếp cận goal
+
+
+      approach_velocity_scaling_dist: 0.6
+      # Khoảng cách đến goal mà controller bắt đầu
+      # điều chỉnh giảm vận tốc khi tiếp cận
+
+
+      # ------------------------------------------------------
+      # Lookahead
+      # ------------------------------------------------------
+      lookahead_dist: 1.2
+      # Khoảng cách nhìn phía trước trên path
+      #
+      # Nhìn xa:
+      #   -> chuyển động mượt hơn
+      #   -> nhưng phản ứng chậm hơn
+      #
+      # Nhìn gần:
+      #   -> bám path sát hơn
+      #   -> nhưng có thể dao động
+
+
+      min_lookahead_dist: 0.5
+      # Khoảng cách lookahead nhỏ nhất
+
+
+      max_lookahead_dist: 2.0
+      # Khoảng cách lookahead lớn nhất
+
+
+      lookahead_time: 1.0
+      # Thời gian dùng khi xác định lookahead
+      # trong chế độ lookahead phụ thuộc vận tốc
+
+
+      use_velocity_scaled_lookahead_dist: false
+      # false: không scale lookahead theo vận tốc
+      # true:
+      #   robot chạy nhanh -> nhìn xa hơn
+      #   robot chạy chậm -> nhìn gần hơn
+
+
+      # ------------------------------------------------------
+      # Bán kính quay
+      # ------------------------------------------------------
+      min_turning_radius: 0.25
+      # Bán kính quay tối thiểu mà controller cho phép
+
+
+      # ------------------------------------------------------
+      # Xoay căn hướng
+      # ------------------------------------------------------
+      use_rotate_to_heading: true
+      # Cho phép robot xoay để căn heading trước khi chạy
+
+
+      rotate_to_heading_min_angle: 0.785
+      # Nếu sai lệch heading lớn hơn 0.785 rad
+      # ≈ 45 độ -> robot có thể xoay căn hướng
+
+
+      rotate_to_heading_angular_vel: 1.8
+      # Tốc độ góc khi xoay căn hướng
+      # đơn vị: rad/s
+
+
+      # ------------------------------------------------------
+      # Transform
+      # ------------------------------------------------------
+      transform_tolerance: 0.1
+      # Sai số/thời gian chấp nhận được khi kiểm tra TF
+      # đơn vị: giây
+
+
+      # ------------------------------------------------------
+      # Collision Detection
+      # ------------------------------------------------------
+      use_collision_detection: true
+      # Bật kiểm tra nguy cơ va chạm
+
+
+      max_allowed_time_to_collision_up_to_target: 1.0
+      # Kiểm tra nguy cơ va chạm trong khoảng thời gian
+      # tối đa 1 giây về phía trước
+
+
+      # ------------------------------------------------------
+      # Cost Regulation
+      # ------------------------------------------------------
+      use_cost_regulated_linear_velocity_scaling: true
+      # Giảm tốc khi robot đi vào vùng cost cao
+
+
+      cost_scaling_dist: 0.5
+      # Khoảng cách ảnh hưởng của cost regulation
+
+
+      cost_scaling_gain: 1.0
+      # Độ mạnh của việc giảm tốc dựa trên cost
+
+
+      inflation_cost_scaling_factor: 3.0
+      # Hệ số dùng để đánh giá cost từ vùng inflation
+
+
+      # ------------------------------------------------------
+      # Giới hạn gia tốc
+      # ------------------------------------------------------
+      max_linear_accel: 2.0
+      # Gia tốc tuyến tính tối đa = 2 m/s²
+
+
+      max_angular_accel: 3.2
+      # Gia tốc góc tối đa = 3.2 rad/s²
+
+
+      max_lateral_accel: 0.2
+      # Giới hạn gia tốc ngang
+
+
+      # ------------------------------------------------------
+      # Xử lý path
+      # ------------------------------------------------------
+      max_robot_pose_search_dist: 10.0
+      # Khoảng cách tối đa trên path để tìm vị trí
+      # tương ứng với robot
+
+
+      use_interpolation: true
+      # Nội suy path để có thông tin path mượt hơn
+
+
+      use_heading_from_path: false
+      # Không bắt buộc lấy heading trực tiếp từ path
+
+
+      # ------------------------------------------------------
+      # Chạy lùi
+      # ------------------------------------------------------
+      allow_reversing: false
+      # false: không cho phép controller chạy lùi
+
+
+# ============================================================
+# 3. LOCAL COSTMAP
+# ============================================================
+local_costmap:
+  local_costmap:
+    ros__parameters:
+
+      update_frequency: 5.0
+      # Cập nhật local costmap 5 Hz
+
+      publish_frequency: 2.0
+      # Publish costmap 2 Hz
+
+      global_frame: odom
+      # Local costmap hoạt động trong frame odom
+
+      robot_base_frame: base_link
+      # Frame thân robot
+
+      use_sim_time: false
+
+
+      rolling_window: true
+      # Costmap di chuyển theo robot
+
+
+      width: 10
+      # Chiều rộng vùng local costmap = 10 m
+
+      height: 10
+      # Chiều cao vùng local costmap = 10 m
+
+      resolution: 0.05
+      # Độ phân giải = 5 cm/cell
+
+
+      # Hình dạng thực tế của robot
+      footprint: "[[0.292, 0.2285], [0.292, -0.2285], [-0.292, -0.2285], [-0.292, 0.2285]]"
+      # Robot được mô hình hóa dạng hình chữ nhật
+      # Dài ≈ 0.584 m
+      # Rộng ≈ 0.457 m
+
+
+      plugins: ["voxel_layer", "inflation_layer"]
+
+
+      # ------------------------------------------------------
+      # Inflation Layer
+      # ------------------------------------------------------
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+
+        cost_scaling_factor: 3.0
+        # Hệ số thay đổi cost khi xa vật cản
+
+        inflation_radius: 0.01
+        # Bán kính inflation = 1 cm
+        # Giữ giống cấu hình nav2_params.yaml hiện tại
+
+
+      # ------------------------------------------------------
+      # Voxel Layer
+      # ------------------------------------------------------
+      voxel_layer:
+        plugin: "nav2_costmap_2d::VoxelLayer"
+
+        enabled: true
+
+        publish_voxel_map: true
+        # Publish thông tin voxel để debug/visualization
+
+
+        origin_z: 0.0
+        # Độ cao bắt đầu của voxel map
+
+        z_resolution: 0.05
+        # Độ phân giải theo trục Z = 5 cm
+
+        z_voxels: 16
+        # Số lớp voxel theo chiều cao
+
+        max_obstacle_height: 2.0
+        # Không xét vật cản cao hơn 2 m
+
+        mark_threshold: 0
+        # Ngưỡng voxel để đánh dấu vật cản
+
+
+        observation_sources: scan
+        # Sử dụng LaserScan làm nguồn quan sát
+
+
+        scan:
+          topic: /scan
+          # LaserScan của robot
+
+
+          max_obstacle_height: 2.0
+
+          clearing: true
+          # Cho phép xóa vùng vật cản khi sensor thấy không còn vật cản
+
+          marking: true
+          # Cho phép đánh dấu vật cản mới
+
+          data_type: "LaserScan"
+
+
+          raytrace_max_range: 4.0
+          # Tầm tối đa ray tracing = 4 m
+
+          raytrace_min_range: 0.0
+
+
+          obstacle_max_range: 3.5
+          # Đánh dấu vật cản tối đa 3.5 m
+
+          obstacle_min_range: 0.0
+
+
+      always_send_full_costmap: true
+
+
+# ============================================================
+# 4. GLOBAL COSTMAP
+# ============================================================
+global_costmap:
+  global_costmap:
+    ros__parameters:
+
+      update_frequency: 1.0
+      # Cập nhật global costmap 1 Hz
+
+      publish_frequency: 1.0
+      # Publish global costmap 1 Hz
+
+
+      global_frame: map
+      # Global costmap sử dụng frame map
+
+      robot_base_frame: base_link
+
+      use_sim_time: false
+
+
+      resolution: 0.05
+      # Độ phân giải = 5 cm
+
+
+      track_unknown_space: true
+      # Theo dõi cả vùng chưa biết
+
+
+      footprint: "[[0.292, 0.2285], [0.292, -0.2285], [-0.292, -0.2285], [-0.292, 0.2285]]"
+      # Footprint thực tế của robot
+
+
+      plugins:
+        - "static_layer"
+        - "obstacle_layer"
+        - "inflation_layer"
+
+
+      # ------------------------------------------------------
+      # Obstacle Layer
+      # ------------------------------------------------------
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+
+        enabled: true
+
+        observation_sources: scan
+
+
+        scan:
+          topic: /scan
+
+          max_obstacle_height: 2.0
+
+          clearing: true
+          # Xóa vật cản không còn xuất hiện
+
+          marking: true
+          # Đánh dấu vật cản
+
+          data_type: "LaserScan"
+
+
+          raytrace_max_range: 4.0
+          # Ray tracing tối đa 4 m
+
+          raytrace_min_range: 0.0
+
+
+          obstacle_max_range: 3.5
+          # Phát hiện/đánh dấu vật cản tối đa 3.5 m
+
+          obstacle_min_range: 0.0
+
+
+      # ------------------------------------------------------
+      # Static Layer
+      # ------------------------------------------------------
+      static_layer:
+        plugin: "nav2_costmap_2d::StaticLayer"
+
+        map_subscribe_transient_local: true
+        # Nhận map từ map_server
+
+
+      # ------------------------------------------------------
+      # Inflation Layer
+      # ------------------------------------------------------
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+
+        cost_scaling_factor: 3.0
+
+        inflation_radius: 0.01
+        # Giữ giống nav2_params.yaml hiện tại
+
+
+      always_send_full_costmap: true
+
+
+# ============================================================
+# 5. MAP SERVER
+# ============================================================
+map_server:
+  ros__parameters:
+
+    use_sim_time: false
+
+    yaml_filename: ""
+    # Để rỗng vì map có thể được truyền từ launch/config
+
+
+# ============================================================
+# 6. GLOBAL PLANNER
+# ============================================================
+planner_server:
+  ros__parameters:
+
+    use_sim_time: false
+
+    expected_planner_frequency: 0.0
+    # Không yêu cầu planner phải chạy ở một tần số cố định
+
+
+    planner_plugins: ["GridBased"]
+
+
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      # Global planner sử dụng NavFn
+
+
+      tolerance: 0.5
+      # Cho phép sai số tối đa 0.5 m khi tìm goal
+
+
+      use_astar: false
+      # false -> sử dụng NavFn/Dijkstra
+      # true  -> sử dụng A*
+
+      allow_unknown: true
+      # Cho phép planner lập đường qua vùng unknown
+
+
+# ============================================================
+# 7. BEHAVIOR SERVER
+# ============================================================
+behavior_server:
+  ros__parameters:
+
+    costmap_topic: local_costmap/costmap_raw
+    # Costmap dùng cho các behavior
+
+    footprint_topic: local_costmap/published_footprint
+    # Footprint của robot
+
+
+    cycle_frequency: 10.0
+    # Behavior server chạy ở 10 Hz
+
+
+    behavior_plugins:
+      - spin
+      - backup
+      - drive_on_heading
+      - assisted_teleop
+      - wait
+
+
+    spin:
+      plugin: "nav2_behaviors/Spin"
+      # Xoay robot tại chỗ
+
+
+    backup:
+      plugin: "nav2_behaviors/BackUp"
+      # Cho robot lùi
+
+
+    drive_on_heading:
+      plugin: "nav2_behaviors/DriveOnHeading"
+      # Di chuyển theo hướng xác định
+
+
+    assisted_teleop:
+      plugin: "nav2_behaviors/AssistedTeleop"
+      # Hỗ trợ điều khiển teleop
+
+
+    wait:
+      plugin: "nav2_behaviors/Wait"
+      # Dừng/chờ
+
+
+    global_frame: odom
+    robot_base_frame: base_link
+
+    transform_tolerance: 0.1
+
+    use_sim_time: false
+
+
+    simulate_ahead_time: 2.0
+    # Mô phỏng trước 2 giây để kiểm tra behavior
+
+
+    max_rotational_vel: 1.0
+    # Tốc độ góc tối đa = 1 rad/s
+
+
+    min_rotational_vel: 0.4
+    # Tốc độ góc tối thiểu = 0.4 rad/s
+
+
+    rotational_acc_lim: 3.2
+    # Gia tốc góc tối đa = 3.2 rad/s²
+
+
+# ============================================================
+# 8. LIFECYCLE MANAGER
+# ============================================================
+lifecycle_manager:
+  ros__parameters:
+
+    use_sim_time: false
+
+    autostart: true
+    # Tự động chuyển các node Nav2 sang trạng thái active
+
+
+    node_names:
+      - controller_server
+      - bt_navigator
+      - map_server
+      - planner_server
+      - behavior_server
