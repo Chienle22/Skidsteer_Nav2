@@ -1,0 +1,53 @@
+[0.036s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_map_server -- -j20 -l20
+[0.129s] [  5%] Built target gtest
+[0.133s] [ 11%] Built target gtest_main
+[0.154s] [ 19%] Built target map_io
+[0.221s] [ 27%] Built target test_map_saver_cli
+[0.232s] [ 36%] Built target test_map_io
+[0.232s] [ 44%] Built target test_map_saver_publisher
+[0.246s] [ 55%] Built target map_server_core
+[0.319s] [ 61%] Built target map_saver_cli
+[0.321s] [ 66%] Built target map_server
+[0.336s] [ 72%] Built target costmap_filter_info_server
+[0.361s] [ 77%] Built target map_saver_server
+[0.364s] [ 86%] Built target test_map_server_node
+[0.364s] [ 91%] Built target test_costmap_filter_info_server
+[0.364s] [100%] Built target test_map_saver_node
+[0.493s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_map_server -- -j20 -l20
+[0.497s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_map_server
+[0.565s] -- Install configuration: "Release"
+[0.566s] -- Execute custom install script
+[0.566s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib/libmap_server_core.so
+[0.567s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib/libmap_io.so
+[0.567s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[0.567s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[0.567s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[0.567s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[0.567s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[0.568s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[0.568s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[0.568s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[0.568s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[0.569s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[0.569s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[0.569s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[0.569s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[0.569s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[0.570s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[0.570s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[0.570s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[0.575s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[0.577s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[0.578s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[0.581s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[0.583s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[0.583s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[0.583s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[0.583s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[0.583s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.583s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[0.583s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.584s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[0.584s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[0.584s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[0.588s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_map_server

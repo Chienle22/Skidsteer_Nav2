@@ -1,0 +1,43 @@
+[0.205s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_navfn_planner': CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/home/chienle/Desktop/nav2_ws/install/turtlebot3:/home/chienle/Desktop/nav2_ws/install/turtlebot3_simulations:/home/chienle/Desktop/nav2_ws/install/turtlebot3_bringup:/home/chienle/Desktop/nav2_ws/install/turtlebot3_node:/home/chienle/Desktop/nav2_ws/install/turtlebot3_navigation2:/home/chienle/Desktop/nav2_ws/install/turtlebot3_gazebo:/home/chienle/Desktop/nav2_ws/install/turtlebot3_fake_node:/home/chienle/Desktop/nav2_ws/install/turtlebot3_description:/home/chienle/Desktop/nav2_ws/install/turtlebot3_cartographer:/home/chienle/Desktop/nav2_ws/install/nav2_system_tests:/home/chienle/Desktop/nav2_ws/install/nav2_bringup:/home/chienle/Desktop/nav2_ws/install/navigation2:/home/chienle/Desktop/nav2_ws/install/nav2_smoother:/home/chienle/Desktop/nav2_ws/install/nav2_graceful_controller:/home/chienle/Desktop/nav2_ws/install/nav2_dwb_controller:/home/chienle/Desktop/nav2_ws/install/nav2_controller:/home/chienle/Desktop/nav2_ws/install/dwb_plugins:/home/chienle/Desktop/nav2_ws/install/dwb_critics:/home/chienle/Desktop/nav2_ws/install/dwb_core:/home/chienle/Desktop/nav2_ws/install/nav_2d_utils:/home/chienle/Desktop/nav2_ws/install/dwb_msgs:/home/chienle/Desktop/nav2_ws/install/nav_2d_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_waypoint_follower:/home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner:/home/chienle/Desktop/nav2_ws/install/nav2_smac_planner:/home/chienle/Desktop/nav2_ws/install/nav2_rotation_shim_controller:/home/chienle/Desktop/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/chienle/Desktop/nav2_ws/install/nav2_planner:/home/chienle/Desktop/nav2_ws/install/nav2_navfn_planner:/home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller:/home/chienle/Desktop/nav2_ws/install/nav2_constrained_smoother:/home/chienle/Desktop/nav2_ws/install/nav2_bt_navigator:/home/chienle/Desktop/nav2_ws/install/nav2_behaviors:/home/chienle/Desktop/nav2_ws/install/nav2_collision_monitor:/home/chienle/Desktop/nav2_ws/install/costmap_queue:/home/chienle/Desktop/nav2_ws/install/nav2_velocity_smoother:/home/chienle/Desktop/nav2_ws/install/nav2_rviz_plugins:/home/chienle/Desktop/nav2_ws/install/nav2_behavior_tree:/home/chienle/Desktop/nav2_ws/install/nav2_amcl:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop:/home/chienle/Desktop/nav2_ws/install/turtlebot3_example:/home/chienle/Desktop/nav2_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/home/chienle/Desktop/nav2_ws/install/nav2_smoother/lib:/home/chienle/Desktop/nav2_ws/install/nav2_graceful_controller/lib:/home/chienle/Desktop/nav2_ws/install/nav2_controller/lib:/home/chienle/Desktop/nav2_ws/install/dwb_plugins/lib:/home/chienle/Desktop/nav2_ws/install/dwb_critics/lib:/home/chienle/Desktop/nav2_ws/install/dwb_core/lib:/home/chienle/Desktop/nav2_ws/install/nav_2d_utils/lib:/home/chienle/Desktop/nav2_ws/install/dwb_msgs/lib:/home/chienle/Desktop/nav2_ws/install/nav_2d_msgs/lib:/home/chienle/Desktop/nav2_ws/install/nav2_waypoint_follower/lib:/home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/lib:/home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/lib:/home/chienle/Desktop/nav2_ws/install/nav2_rotation_shim_controller/lib:/home/chienle/Desktop/nav2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/chienle/Desktop/nav2_ws/install/nav2_planner/lib:/home/chienle/Desktop/nav2_ws/install/nav2_navfn_planner/lib:/home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/lib:/home/chienle/Desktop/nav2_ws/install/nav2_constrained_smoother/lib:/home/chienle/Desktop/nav2_ws/install/nav2_bt_navigator/lib:/home/chienle/Desktop/nav2_ws/install/nav2_behaviors/lib:/home/chienle/Desktop/nav2_ws/install/nav2_collision_monitor/lib:/home/chienle/Desktop/nav2_ws/install/costmap_queue/lib:/home/chienle/Desktop/nav2_ws/install/nav2_velocity_smoother/lib:/home/chienle/Desktop/nav2_ws/install/nav2_rviz_plugins/lib:/home/chienle/Desktop/nav2_ws/install/nav2_behavior_tree/lib:/home/chienle/Desktop/nav2_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_navfn_planner -- -j20 -l20
+[0.305s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.834s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.856s] -- Found nav2_common: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.860s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.965s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.974s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.994s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.080s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.203s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.215s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.284s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.444s] -- Found rclcpp_action: 16.0.18 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.544s] -- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.595s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.760s] -- Found nav2_util: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[2.134s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.139s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.236s] -- Found nav2_core: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[3.204s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.204s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.403s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.895s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.897s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.899s] -- Configured cppcheck include dirs: /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_navfn_planner/include
+[3.900s] -- Configured cppcheck exclude dirs and/or files: 
+[3.904s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.904s] -- Configured cpplint exclude dirs and/or files: 
+[3.905s] -- Added test 'lint_cmake' to check CMake code style
+[3.908s] -- Added test 'uncrustify' to check C / C++ code style
+[3.910s] -- Configured uncrustify additional arguments: 
+[3.911s] -- Added test 'xmllint' to check XML markup files
+[3.921s] -- Configuring done
+[4.204s] -- Generating done
+[4.261s] -- Build files have been written to: /home/chienle/Desktop/nav2_ws/build/nav2_navfn_planner
+[4.400s] [35m[1mConsolidate compiler generated dependencies of target nav2_navfn_planner[0m
+[4.438s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[4.441s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[4.487s] [ 22%] Built target gtest_main
+[4.542s] [ 44%] Built target gtest
+[4.556s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn_planner.cpp.o[0m
+[4.559s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn.cpp.o[0m

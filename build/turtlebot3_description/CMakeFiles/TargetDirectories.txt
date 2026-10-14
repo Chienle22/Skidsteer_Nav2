@@ -1,0 +1,9 @@
+/home/chienle/Desktop/nav2_ws/build/turtlebot3_description/CMakeFiles/uninstall.dir
+/home/chienle/Desktop/nav2_ws/build/turtlebot3_description/CMakeFiles/turtlebot3_description_uninstall.dir
+/home/chienle/Desktop/nav2_ws/build/turtlebot3_description/CMakeFiles/test.dir
+/home/chienle/Desktop/nav2_ws/build/turtlebot3_description/CMakeFiles/edit_cache.dir
+/home/chienle/Desktop/nav2_ws/build/turtlebot3_description/CMakeFiles/rebuild_cache.dir
+/home/chienle/Desktop/nav2_ws/build/turtlebot3_description/CMakeFiles/list_install_components.dir
+/home/chienle/Desktop/nav2_ws/build/turtlebot3_description/CMakeFiles/install.dir
+/home/chienle/Desktop/nav2_ws/build/turtlebot3_description/CMakeFiles/install/local.dir
+/home/chienle/Desktop/nav2_ws/build/turtlebot3_description/CMakeFiles/install/strip.dir

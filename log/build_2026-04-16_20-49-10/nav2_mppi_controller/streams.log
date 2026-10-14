@@ -1,0 +1,67 @@
+[0.104s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_mppi_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller
+[0.218s] -- The C compiler identification is GNU 11.4.0
+[0.352s] -- The CXX compiler identification is GNU 11.4.0
+[0.380s] -- Detecting C compiler ABI info
+[0.646s] -- Detecting C compiler ABI info - done
+[0.688s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.692s] -- Detecting C compile features
+[0.696s] -- Detecting C compile features - done
+[0.714s] -- Detecting CXX compiler ABI info
+[1.004s] -- Detecting CXX compiler ABI info - done
+[1.043s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.043s] -- Detecting CXX compile features
+[1.044s] -- Detecting CXX compile features - done
+[1.054s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.496s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.665s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.883s] -- Performing Test arch_native_supported
+[2.177s] -- Performing Test arch_native_supported - Success
+[2.210s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[2.457s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.491s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.541s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.618s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.844s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.852s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.907s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.933s] -- Looking for pthread.h
+[3.132s] -- Looking for pthread.h - found
+[3.132s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.343s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.346s] -- Found Threads: TRUE  
+[3.506s] -- Found nav2_common: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[3.510s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[3.588s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[3.648s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.767s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.813s] -- Found nav2_core: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[4.373s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.373s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.604s] -- Found tf2_eigen: 0.25.19 (/opt/ros/humble/share/tf2_eigen/cmake)
+[4.610s] -- Setting build type to Release as none was specified.
+[4.610s] -- Performing Test COMPILER_SUPPORTS_AVX512
+[4.853s] -- Performing Test COMPILER_SUPPORTS_AVX512 - Success
+[4.857s] -- Performing Test COMPILER_SUPPORTS_SSE4
+[5.076s] -- Performing Test COMPILER_SUPPORTS_SSE4 - Success
+[5.078s] -- Performing Test COMPILER_SUPPORTS_AVX2
+[5.285s] -- Performing Test COMPILER_SUPPORTS_AVX2 - Success
+[5.287s] -- Performing Test COMPILER_SUPPORTS_FMA
+[5.512s] -- Performing Test COMPILER_SUPPORTS_FMA - Success
+[6.011s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.024s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.607s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[13.538s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.544s] -- Configured cppcheck include dirs: /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_mppi_controller/include
+[13.545s] -- Configured cppcheck exclude dirs and/or files: 
+[13.573s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.573s] -- Configured cpplint exclude dirs and/or files: 
+[13.585s] -- Added test 'lint_cmake' to check CMake code style
+[13.609s] -- Added test 'uncrustify' to check C / C++ code style
+[13.609s] -- Configured uncrustify additional arguments: 
+[13.618s] -- Added test 'xmllint' to check XML markup files
+[13.646s] -- Configuring done
+[18.977s] -- Generating done
+[19.890s] -- Build files have been written to: /home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller
+[20.034s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_mppi_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller
+[20.036s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller -- -j20 -l20

@@ -1,0 +1,77 @@
+[0.033s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_collision_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/nav2_ws/install/nav2_collision_monitor
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.202s] -- Detecting C compiler ABI info
+[0.303s] -- Detecting C compiler ABI info - done
+[0.314s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.436s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.448s] -- Detecting CXX compile features
+[0.448s] -- Detecting CXX compile features - done
+[0.452s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.682s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.774s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.822s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.889s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.897s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.911s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.929s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.954s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.022s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.027s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.060s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.073s] -- Looking for pthread.h
+[1.176s] -- Looking for pthread.h - found
+[1.177s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.283s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.285s] -- Found Threads: TRUE  
+[1.362s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.403s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.448s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[1.455s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.554s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.576s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.578s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.578s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.581s] -- Found nav2_common: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.582s] -- Found nav2_util: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[1.725s] -- Found nav2_costmap_2d: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[1.877s] -- Setting build type to Release as none was specified.
+[1.959s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.089s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.269s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.270s] -- Configured cppcheck include dirs: /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_collision_monitor/include
+[2.270s] -- Configured cppcheck exclude dirs and/or files: 
+[2.271s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.272s] -- Added test 'lint_cmake' to check CMake code style
+[2.272s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.274s] -- Added test 'uncrustify' to check C / C++ code style
+[2.275s] -- Configured uncrustify additional arguments: 
+[2.275s] -- Added test 'xmllint' to check XML markup files
+[2.279s] -- Configuring done
+[2.615s] -- Generating done
+[2.667s] -- Build files have been written to: /home/chienle/Desktop/nav2_ws/build/nav2_collision_monitor
+[2.703s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_collision_monitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/nav2_ws/install/nav2_collision_monitor
+[2.706s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_collision_monitor -- -j20 -l20
+[2.798s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.806s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.808s] [ 17%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/polygon.cpp.o[0m
+[2.808s] [ 17%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o[0m
+[2.816s] [ 21%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/circle.cpp.o[0m
+[2.822s] [ 26%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/pointcloud.cpp.o[0m
+[2.823s] [ 30%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/range.cpp.o[0m
+[2.824s] [ 34%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/source.cpp.o[0m
+[2.830s] [ 39%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o[0m
+[2.850s] [ 43%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/kinematics.cpp.o[0m
+[5.624s] [ 47%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.746s] [ 47%] Built target gtest_main
+[100.393s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[100.400s] compilation terminated.
+[100.401s] gmake[2]: *** [CMakeFiles/collision_monitor_core.dir/build.make:76: CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o] Error 1
+[100.401s] gmake[2]: *** Waiting for unfinished jobs....
+[108.353s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[108.354s] compilation terminated.
+[108.354s] gmake[2]: *** [CMakeFiles/collision_monitor_core.dir/build.make:132: CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o] Error 1

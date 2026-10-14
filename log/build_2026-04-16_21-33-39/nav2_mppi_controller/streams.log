@@ -1,0 +1,95 @@
+[0.037s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller -- -j20 -l20
+[0.125s] [  4%] Built target gtest
+[0.126s] [  8%] Built target gtest_main
+[0.155s] [ 12%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/twirling_critic.cpp.o[0m
+[0.155s] [ 26%] Built target mppi_controller
+[0.155s] [ 28%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/constraint_critic.cpp.o[0m
+[0.156s] [ 30%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_critic.cpp.o[0m
+[0.157s] [ 34%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_legacy_critic.cpp.o[0m
+[0.157s] [ 34%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o[0m
+[0.158s] [ 36%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/prefer_forward_critic.cpp.o[0m
+[0.158s] [ 38%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_angle_critic.cpp.o[0m
+[0.206s] [ 40%] [32mBuilding CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o[0m
+[0.206s] [ 42%] [32mBuilding CXX object test/CMakeFiles/optimizer_unit_tests.dir/optimizer_unit_tests.cpp.o[0m
+[0.206s] [ 44%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[0.207s] [ 46%] [32mBuilding CXX object test/CMakeFiles/critic_manager_test.dir/critic_manager_test.cpp.o[0m
+[0.217s] [ 51%] Built target models_test
+[0.217s] [ 55%] Built target parameter_handler_test
+[0.218s] [ 61%] Built target motion_model_tests
+[0.219s] [ 63%] Built target optimizer_smoke_test
+[0.219s] [ 67%] Built target noise_generator_test
+[0.222s] [ 71%] Built target controller_state_transition_test
+[0.223s] [ 75%] Built target path_handler_test
+[22.170s] [ 77%] [32m[1mLinking CXX shared library libmppi_critics.so[0m
+[22.239s] [ 79%] [32m[1mLinking CXX executable utils_test[0m
+[22.797s] [ 89%] Built target mppi_critics
+[22.834s] [ 91%] [32mBuilding CXX object test/CMakeFiles/critics_tests.dir/critics_tests.cpp.o[0m
+[22.842s] [ 91%] Built target utils_test
+[23.259s] [ 93%] [32m[1mLinking CXX executable critic_manager_test[0m
+[23.878s] [ 93%] Built target critic_manager_test
+[26.783s] [ 95%] [32m[1mLinking CXX executable optimizer_unit_tests[0m
+[27.403s] [ 95%] Built target optimizer_unit_tests
+[35.023s] [ 97%] [32m[1mLinking CXX executable trajectory_visualizer_tests[0m
+[35.590s] [ 97%] Built target trajectory_visualizer_tests
+[42.399s] [100%] [32m[1mLinking CXX executable critics_tests[0m
+[42.845s] [100%] Built target critics_tests
+[42.858s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller -- -j20 -l20
+[42.862s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller
+[42.873s] -- Install configuration: "Release"
+[42.874s] -- Execute custom install script
+[42.874s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/lib/libmppi_controller.so
+[42.885s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/lib/libmppi_critics.so
+[42.897s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+[42.908s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+[42.918s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+[42.929s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+[42.940s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+[42.950s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/cost_critic.hpp
+[42.962s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+[42.974s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+[42.986s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+[42.997s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+[43.008s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_legacy_critic.hpp
+[43.020s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+[43.032s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+[43.043s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+[43.054s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+[43.065s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/velocity_deadband_critic.hpp
+[43.076s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+[43.088s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+[43.099s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+[43.109s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+[43.121s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+[43.133s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+[43.144s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+[43.156s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+[43.168s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+[43.180s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+[43.191s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+[43.202s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+[43.213s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+[43.225s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+[43.237s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+[43.250s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller//mppic.xml
+[43.261s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller//critics.xml
+[43.273s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+[43.284s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+[43.296s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+[43.309s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+[43.320s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+[43.332s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+[43.343s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+[43.354s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+[43.366s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+[43.380s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+[43.390s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+[43.402s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+[43.413s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+[43.426s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+[43.438s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[43.448s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.460s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.471s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+[43.482s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+[43.494s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml
+[43.511s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_mppi_controller

@@ -1,0 +1,54 @@
+[0.074s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop:/home/chienle/Desktop/nav2_ws/install/turtlebot3_example:/home/chienle/Desktop/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/chienle/Desktop/nav2_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/nav2_ws/install/turtlebot3_node
+[0.502s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.502s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.502s] -- Found dynamixel_sdk: 4.0.3 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.502s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.502s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.502s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.502s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.521s] -- Found message_filters: 4.3.14 (/opt/ros/humble/share/message_filters/cmake)
+[0.573s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.579s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.614s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.682s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.710s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.736s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.750s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[0.756s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.884s] -- Found turtlebot3_msgs: 2.4.0 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[1.089s] -- Configuring done
+[1.123s] -- Generating done
+[1.136s] -- Build files have been written to: /home/chienle/Desktop/nav2_ws/build/turtlebot3_node
+[1.151s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop:/home/chienle/Desktop/nav2_ws/install/turtlebot3_example:/home/chienle/Desktop/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/chienle/Desktop/nav2_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/nav2_ws/install/turtlebot3_node
+[1.153s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop:/home/chienle/Desktop/nav2_ws/install/turtlebot3_example:/home/chienle/Desktop/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/turtlebot3_node -- -j20 -l20
+[1.262s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_node_lib[0m
+[1.344s] [ 85%] Built target turtlebot3_node_lib
+[1.367s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_ros[0m
+[1.403s] [100%] Built target turtlebot3_ros
+[1.426s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop:/home/chienle/Desktop/nav2_ws/install/turtlebot3_example:/home/chienle/Desktop/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/turtlebot3_node -- -j20 -l20
+[1.429s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop:/home/chienle/Desktop/nav2_ws/install/turtlebot3_example:/home/chienle/Desktop/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/turtlebot3_node
+[1.447s] -- Install configuration: ""
+[1.448s] -- Execute custom install script
+[1.449s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[1.450s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[1.450s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[1.450s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[1.451s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[1.451s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[1.451s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[1.452s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[1.452s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[1.452s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[1.452s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[1.453s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[1.453s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[1.453s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[1.453s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[1.473s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[1.473s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.473s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[1.473s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[1.474s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[1.476s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop:/home/chienle/Desktop/nav2_ws/install/turtlebot3_example:/home/chienle/Desktop/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/turtlebot3_node

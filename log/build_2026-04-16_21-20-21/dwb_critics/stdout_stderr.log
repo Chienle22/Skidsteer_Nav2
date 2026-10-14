@@ -1,0 +1,9 @@
+[  7%] Built target gtest
+[ 14%] Built target gtest_main
+[ 62%] Built target dwb_critics
+[ 66%] [32mBuilding CXX object test/CMakeFiles/base_obstacle_tests.dir/base_obstacle_test.cpp.o[0m
+[ 70%] [32mBuilding CXX object test/CMakeFiles/obstacle_footprint_tests.dir/obstacle_footprint_test.cpp.o[0m
+[ 74%] [32mBuilding CXX object test/CMakeFiles/prefer_forward_tests.dir/prefer_forward_test.cpp.o[0m
+[ 77%] [32mBuilding CXX object test/CMakeFiles/twirling_tests.dir/twirling_test.cpp.o[0m
+[ 85%] Built target alignment_util_tests
+[ 88%] [32m[1mLinking CXX executable twirling_tests[0m

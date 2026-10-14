@@ -1,0 +1,18 @@
+[  3%] Built target gtest_main
+[  6%] Built target gtest
+[ 25%] Built target nav2_smac_planner_2d
+[ 44%] Built target nav2_smac_planner_lattice
+[ 62%] Built target nav2_smac_planner
+[ 64%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target test_costmap_downsampler[0m
+[ 66%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[ 67%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[ 69%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[ 72%] Built target test_collision_checker
+[ 74%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[ 76%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[ 77%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[ 81%] Built target test_smac_lattice
+[ 83%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[ 84%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[ 86%] Built target test_costmap_downsampler

@@ -1,0 +1,7 @@
+[ 13%] Built target gtest
+[ 26%] Built target smooth_control_law
+[ 40%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target nav2_graceful_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target test_egopolar[0m
+[ 53%] Built target test_egopolar
+[ 60%] [32mBuilding CXX object CMakeFiles/nav2_graceful_controller.dir/src/graceful_controller.cpp.o[0m

@@ -1,0 +1,40 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star_planner.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library libnav2_theta_star_planner.so[0m
+[ 33%] Built target nav2_theta_star_planner
+[ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 55%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 77%] Built target gtest_main
+[ 88%] [32mBuilding CXX object CMakeFiles/test_theta_star.dir/test/test_theta_star.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_theta_star[0m
+[100%] Built target test_theta_star
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner//theta_star_planner.xml
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/lib/libnav2_theta_star_planner.so
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/include//nav2_theta_star_planner/theta_star.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/include//nav2_theta_star_planner/theta_star_planner.hpp
+-- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/theta_star_planner.xml
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/library_path.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/library_path.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/package_run_dependencies/nav2_theta_star_planner
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/parent_prefix_path/nav2_theta_star_planner
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/ament_prefix_path.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/path.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/path.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.bash
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.zsh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/package.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/packages/nav2_theta_star_planner
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_theta_star_planner
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerConfig.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerConfig-version.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/package.xml

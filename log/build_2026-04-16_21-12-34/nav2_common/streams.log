@@ -1,0 +1,45 @@
+[0.053s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_common -- -j20 -l20
+[0.460s] Built target ament_cmake_python_symlink_nav2_common
+[0.512s] running egg_info
+[0.513s] writing nav2_common.egg-info/PKG-INFO
+[0.513s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.513s] writing top-level names to nav2_common.egg-info/top_level.txt
+[0.517s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.518s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.558s] Built target ament_cmake_python_build_nav2_common_egg
+[0.862s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_common -- -j20 -l20
+[0.865s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_common
+[0.907s] -- Install configuration: ""
+[0.911s] -- Execute custom install script
+[0.912s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[0.913s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[0.916s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.17-py3.10.egg-info/PKG-INFO
+[0.917s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.17-py3.10.egg-info/SOURCES.txt
+[0.917s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.17-py3.10.egg-info/dependency_links.txt
+[0.919s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.17-py3.10.egg-info/top_level.txt
+[0.921s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[0.922s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[0.923s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[0.925s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[0.929s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[0.929s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[0.929s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[0.930s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[0.930s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[0.930s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[0.930s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[0.931s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[0.931s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[0.931s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[0.931s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[0.932s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[0.933s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/package.dsv
+[0.954s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[0.954s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[0.955s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[0.956s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[0.956s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/package.xml
+[0.961s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[1.003s] Listing '/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[1.003s] Listing '/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[1.060s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_common

@@ -1,0 +1,89 @@
+[0.035s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_smac_planner -- -j20 -l20
+[0.124s] [  3%] Built target gtest_main
+[0.124s] [  6%] Built target gtest
+[0.190s] [ 62%] Built target nav2_smac_planner
+[0.190s] [ 62%] Built target nav2_smac_planner_lattice
+[0.190s] [ 62%] Built target nav2_smac_planner_2d
+[0.223s] [ 64%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[0.227s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[0.227s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[0.227s] [ 71%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[0.227s] [ 71%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[0.228s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[0.235s] [ 74%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[0.235s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[0.238s] [ 79%] Built target test_collision_checker
+[0.240s] [ 83%] Built target test_costmap_downsampler
+[0.259s] [ 86%] Built target test_smac_lattice
+[11.926s] [ 88%] [32m[1mLinking CXX executable test_node2d[0m
+[12.407s] [ 89%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[12.730s] [ 89%] Built target test_node2d
+[13.218s] [ 89%] Built target test_nodehybrid
+[14.732s] [ 91%] [32m[1mLinking CXX executable test_a_star[0m
+[15.168s] [ 93%] [32m[1mLinking CXX executable test_smac_2d[0m
+[15.465s] [ 93%] Built target test_a_star
+[15.718s] [ 94%] [32m[1mLinking CXX executable test_nodebasic[0m
+[15.882s] [ 94%] Built target test_smac_2d
+[16.186s] [ 96%] [32m[1mLinking CXX executable test_smoother[0m
+[16.196s] [ 96%] Built target test_nodebasic
+[16.247s] [ 98%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[16.840s] [ 98%] Built target test_smoother
+[16.877s] [ 98%] Built target test_smac_hybrid
+[17.390s] [100%] [32m[1mLinking CXX executable test_lattice_node[0m
+[17.917s] [100%] Built target test_lattice_node
+[17.935s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_smac_planner -- -j20 -l20
+[17.939s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_smac_planner
+[17.952s] -- Install configuration: "Release"
+[17.953s] -- Execute custom install script
+[17.953s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_hybrid.xml
+[17.966s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_2d.xml
+[17.978s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_lattice.xml
+[17.991s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[18.002s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[18.015s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[18.028s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[18.038s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[18.050s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[18.062s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[18.074s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[18.086s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[18.100s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[18.112s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[18.125s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[18.137s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[18.150s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[18.162s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[18.175s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[18.187s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[18.198s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[18.210s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[18.226s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[18.238s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[18.251s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[18.263s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[18.276s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[18.288s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[18.300s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[18.312s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[18.324s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[18.336s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[18.348s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[18.361s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[18.374s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[18.385s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[18.400s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[18.412s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[18.424s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[18.436s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[18.448s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[18.461s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[18.473s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[18.485s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[18.497s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[18.509s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.522s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[18.534s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.546s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[18.559s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[18.571s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[18.588s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_core:/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d:/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib:/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_smac_planner

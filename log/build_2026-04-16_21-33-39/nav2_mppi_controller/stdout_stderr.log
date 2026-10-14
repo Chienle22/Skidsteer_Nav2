@@ -1,0 +1,91 @@
+[  4%] Built target gtest
+[  8%] Built target gtest_main
+[ 12%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/twirling_critic.cpp.o[0m
+[ 26%] Built target mppi_controller
+[ 28%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/constraint_critic.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_critic.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_legacy_critic.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/prefer_forward_critic.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_angle_critic.cpp.o[0m
+[ 40%] [32mBuilding CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o[0m
+[ 42%] [32mBuilding CXX object test/CMakeFiles/optimizer_unit_tests.dir/optimizer_unit_tests.cpp.o[0m
+[ 44%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[ 46%] [32mBuilding CXX object test/CMakeFiles/critic_manager_test.dir/critic_manager_test.cpp.o[0m
+[ 51%] Built target models_test
+[ 55%] Built target parameter_handler_test
+[ 61%] Built target motion_model_tests
+[ 63%] Built target optimizer_smoke_test
+[ 67%] Built target noise_generator_test
+[ 71%] Built target controller_state_transition_test
+[ 75%] Built target path_handler_test
+[ 77%] [32m[1mLinking CXX shared library libmppi_critics.so[0m
+[ 79%] [32m[1mLinking CXX executable utils_test[0m
+[ 89%] Built target mppi_critics
+[ 91%] [32mBuilding CXX object test/CMakeFiles/critics_tests.dir/critics_tests.cpp.o[0m
+[ 91%] Built target utils_test
+[ 93%] [32m[1mLinking CXX executable critic_manager_test[0m
+[ 93%] Built target critic_manager_test
+[ 95%] [32m[1mLinking CXX executable optimizer_unit_tests[0m
+[ 95%] Built target optimizer_unit_tests
+[ 97%] [32m[1mLinking CXX executable trajectory_visualizer_tests[0m
+[ 97%] Built target trajectory_visualizer_tests
+[100%] [32m[1mLinking CXX executable critics_tests[0m
+[100%] Built target critics_tests
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/lib/libmppi_controller.so
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/lib/libmppi_critics.so
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/cost_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_legacy_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/velocity_deadband_critic.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller//mppic.xml
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller//critics.xml
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml

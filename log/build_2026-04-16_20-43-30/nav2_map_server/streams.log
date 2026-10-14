@@ -1,0 +1,82 @@
+[0.035s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_map_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/nav2_ws/install/nav2_map_server
+[0.120s] -- The C compiler identification is GNU 11.4.0
+[0.207s] -- The CXX compiler identification is GNU 11.4.0
+[0.219s] -- Detecting C compiler ABI info
+[0.314s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.326s] -- Detecting C compile features
+[0.326s] -- Detecting C compile features - done
+[0.331s] -- Detecting CXX compiler ABI info
+[0.454s] -- Detecting CXX compiler ABI info - done
+[0.466s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.466s] -- Detecting CXX compile features
+[0.467s] -- Detecting CXX compile features - done
+[0.473s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.735s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.829s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.874s] -- Found nav2_common: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.878s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.951s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.959s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.972s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.991s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.016s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.085s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.089s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.121s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.135s] -- Looking for pthread.h
+[1.237s] -- Looking for pthread.h - found
+[1.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.346s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.347s] -- Found Threads: TRUE  
+[1.426s] -- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.457s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.499s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.542s] -- Found nav2_msgs: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.615s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.623s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[1.628s] -- Found nav2_util: 1.1.17 (/home/chienle/Desktop/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[1.726s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.728s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.728s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.783s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[1.783s] -- Setting build type to Release as none was specified.
+[1.964s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.127s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.138s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.148s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.162s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.164s] -- Configured cppcheck include dirs: /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_map_server/include
+[2.164s] -- Configured cppcheck exclude dirs and/or files: 
+[2.167s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.167s] -- Configured cpplint exclude dirs and/or files: 
+[2.168s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.169s] -- Added test 'lint_cmake' to check CMake code style
+[2.170s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.173s] -- Added test 'uncrustify' to check C / C++ code style
+[2.173s] -- Configured uncrustify additional arguments: 
+[2.174s] -- Added test 'xmllint' to check XML markup files
+[2.179s] -- Configuring done
+[2.569s] -- Generating done
+[2.667s] -- Build files have been written to: /home/chienle/Desktop/nav2_ws/build/nav2_map_server
+[2.699s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_map_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/nav2_ws/install/nav2_map_server
+[2.700s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_map_server -- -j20 -l20
+[2.821s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.822s] [  5%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[2.822s] [  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[2.863s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.248s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.294s] [ 13%] Built target gtest_main
+[24.021s] [ 16%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[24.588s] [ 19%] [32m[1mLinking CXX static library libgtest.a[0m
+[24.756s] [ 19%] Built target gtest
+[24.884s] [ 25%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[24.884s] [ 25%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[25.098s] [ 25%] Built target map_io
+[25.209s] [ 27%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[25.218s] [ 30%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[25.232s] [ 33%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[25.232s] [ 36%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[25.240s] [ 38%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[25.244s] [ 41%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[25.250s] [ 44%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m

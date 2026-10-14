@@ -1,0 +1,7 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mppi_critics.dir/build.make:146: CMakeFiles/mppi_critics.dir/src/critics/path_align_legacy_critic.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mppi_critics.dir/build.make:160: CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o] Error 1

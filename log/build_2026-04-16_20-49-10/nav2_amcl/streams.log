@@ -1,0 +1,62 @@
+[0.040s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_amcl -- -j20 -l20
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target pf_lib[0m
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target map_lib[0m
+[0.169s] [ 20%] Built target map_lib
+[0.192s] [ 50%] Built target pf_lib
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target sensors_lib[0m
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target motions_lib[0m
+[0.259s] [ 70%] Built target sensors_lib
+[0.266s] [ 83%] Built target motions_lib
+[0.330s] [ 87%] [32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o[0m
+[85.136s] [ 91%] [32m[1mLinking CXX shared library libamcl_core.so[0m
+[87.054s] [ 91%] Built target amcl_core
+[87.178s] [ 95%] [32mBuilding CXX object CMakeFiles/amcl.dir/src/main.cpp.o[0m
+[103.533s] [100%] [32m[1mLinking CXX executable amcl[0m
+[104.334s] [100%] Built target amcl
+[104.363s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_amcl -- -j20 -l20
+[104.368s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_amcl
+[104.379s] -- Install configuration: "Release"
+[104.381s] -- Execute custom install script
+[104.385s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/lib/libpf_lib.so
+[104.406s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/lib/libmap_lib.so
+[104.422s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/lib/libmotions_lib.so
+[104.442s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/lib/libsensors_lib.so
+[104.460s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/lib/libamcl_core.so
+[104.480s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/lib/nav2_amcl/amcl
+[104.498s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+[104.515s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+[104.545s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+[104.577s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/differential_motion_model.hpp
+[104.601s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+[104.620s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/omni_motion_model.hpp
+[104.637s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+[104.656s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+[104.674s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+[104.692s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+[104.711s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+[104.729s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/portable_utils.hpp
+[104.749s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+[104.768s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+[104.786s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+[104.804s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl//plugins.xml
+[104.823s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+[104.842s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+[104.861s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+[104.879s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+[104.900s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+[104.920s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+[104.935s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+[104.955s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+[104.975s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+[104.996s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+[105.014s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/package.dsv
+[105.036s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+[105.056s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/nav2_amcl__pluginlib__plugin/nav2_amcl
+[105.074s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/rclcpp_components/nav2_amcl
+[105.093s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[105.111s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+[105.130s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+[105.149s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+[105.169s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+[105.188s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_amcl/share/nav2_amcl/package.xml
+[105.213s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_amcl

@@ -1,0 +1,74 @@
+[  5%] [32mBuilding CXX object CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o[0m
+[ 10%] [32m[1mLinking CXX shared library libnav2_spin_behavior.so[0m
+[ 10%] Built target nav2_spin_behavior
+[ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 20%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_behavior.dir/plugins/assisted_teleop.cpp.o[0m
+[ 35%] Built target gtest_main
+[ 40%] [32mBuilding CXX object CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libnav2_back_up_behavior.so[0m
+[ 50%] Built target nav2_back_up_behavior
+[ 55%] [32m[1mLinking CXX shared library libbehavior_server_core.so[0m
+[ 55%] Built target behavior_server_core
+[ 60%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_behavior.so[0m
+[ 60%] Built target nav2_assisted_teleop_behavior
+[ 65%] [32mBuilding CXX object CMakeFiles/behavior_server.dir/src/main.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable behavior_server[0m
+[ 70%] Built target behavior_server
+[ 75%] [32mBuilding CXX object test/CMakeFiles/test_behaviors.dir/test_behaviors.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_behavior.so[0m
+[ 85%] Built target nav2_drive_on_heading_behavior
+[ 90%] [32m[1mLinking CXX executable test_behaviors[0m
+[ 90%] Built target test_behaviors
+[ 95%] [32mBuilding CXX object CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libnav2_wait_behavior.so[0m
+[100%] Built target nav2_wait_behavior
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors//behavior_plugin.xml
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/lib/libbehavior_server_core.so
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/lib/libnav2_spin_behavior.so
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/lib/libnav2_wait_behavior.so
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/lib/libnav2_back_up_behavior.so
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/lib/nav2_behaviors/behavior_server
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/include//nav2_behaviors/behavior_server.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/assisted_teleop.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/back_up.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/drive_on_heading.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/spin.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/wait.hpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/include//nav2_behaviors/timed_behavior.hpp
+-- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.cpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.cpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.cpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.cpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.cpp
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/nav2_behaviors
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/nav2_behaviors
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.bash
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.sh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.zsh
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/package.dsv
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/ament_index/resource_index/packages/nav2_behaviors
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behaviors
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/ament_index/resource_index/rclcpp_components/nav2_behaviors
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig-version.cmake
+-- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/package.xml

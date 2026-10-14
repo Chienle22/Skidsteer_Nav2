@@ -1,0 +1,41 @@
+[1.473s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop': PYTHONPATH=/home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build
+[1.863s] running develop
+[2.121s] Removing /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[2.160s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build
+[2.164s] Invoking command in '/home/chienle/Desktop/nav2_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build install --record /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data --force
+[2.548s] running egg_info
+[2.549s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[2.550s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[2.550s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[2.550s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[2.550s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[2.553s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.554s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.555s] running build
+[2.555s] running build_py
+[2.555s] creating /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build
+[2.556s] creating /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build/lib
+[2.556s] creating /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[2.556s] copying turtlebot3_teleop/__init__.py -> /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[2.556s] creating /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[2.557s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[2.557s] copying turtlebot3_teleop/script/__init__.py -> /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[2.557s] running install
+[2.557s] running install_lib
+[2.558s] creating /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[2.558s] copying /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[2.558s] creating /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[2.558s] copying /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[2.558s] copying /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[2.559s] byte-compiling /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-310.pyc
+[2.559s] byte-compiling /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[2.561s] byte-compiling /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-310.pyc
+[2.562s] running install_data
+[2.562s] copying resource/turtlebot3_teleop -> /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[2.562s] copying package.xml -> /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[2.562s] running install_egg_info
+[2.565s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.1.5-py3.10.egg-info
+[2.566s] running install_scripts
+[2.604s] Installing teleop_keyboard script to /home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.604s] writing list of installed files to '/home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/install.log'
+[2.637s] Invoked command in '/home/chienle/Desktop/nav2_ws/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/nav2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/build install --record /home/chienle/Desktop/nav2_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data --force

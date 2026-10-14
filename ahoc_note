@@ -1,0 +1,40 @@
+Chạy MPPI mô phỏng: ~/nav2_ws
+1. Môi trường:
+	ros2 launch turtlebot3_gazebo map4.launch.py : map tự tạo
+	ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py: map world
+2. Bring up
+	ros2 launch nav2_bringup bringup_launch.py use_sim_time:=true map:=/home/chienle/Desktop/nav2_ws/src/turtlebot3/turtlebot3_navigation2/map/map.yaml
+	
+3. Rviz
+	ros2 launch nav2_bringup rviz_launch.py
+	
+	
+	
+chạy thực:
+1.	~/skid_robot-v2$ ros2 launch bringup bringup_launch.py (chạy robot)
+	 ros2 launch nav2_bringup bringup_launch.py use_sim_time:=false  map:=/home/chienle/Desktop/skid_robot_v2/src/mapping/map/A10_t2/A10_t2.yaml ( map A10 2D)
+
+	ros2 launch nav2_bringup bringup_launch.py use_sim_time:=false  map:=/home/binh/maps/A10_2/map.yaml (Map A10 3D - rcm)
+	ros2 launch nav2_bringup bringup_launch.py use_sim_time:=false  map:=/home/binh/maps/out_door_real/map_real.yaml
+
+3.	~/nav2_ws$ ros2 launch nav2_bringup rviz_launch.py 
+
+Build: colcon build --parallel-workers 2
+colcon build --packages-select nav2_bringup
+
+Ros-bag: ros2 bag record -a Lưu toàn bộ dữ liệu
+         ros2 bag play :  hiển thị dữ liệu
+         
+Chạy map out_door(h1@h1-LOQ:~/nav2_ws):
+1. ros2 launch turtlebot3_gazebo map_outdoor.launch.py 
+2. ros2 launch nav2_bringup bringup_launch.py use_sim_time:=true map:=/home/binh/maps/out_door1/out_door1.yaml 
+3. ros2 launch nav2_bringup rviz_launch.py
+
+
+Quét map out-door:
+1. ~/nav2_ws_velodyne$ ros2 launch turtlebot3_gazebo map_fix.launch.py
+2. ~/nav2_ws_velodyne$ ros2 launch lidarslam lidarslam.launch.py 
+3. h1@h1-LOQ:~/nav2_ws_velodyne$ ros2 run turtlebot3_teleop teleop_keyboard
+ điều khiển robot di chuyển toàn bộ map
+4. ros2 service call /map_save std_srvs/srv/Empty
+5. ./pointcloud_to_2dmap /home/phuong/ros2_ws/src/map/A10_A12/map.pcd /home/phuong/ros2_ws/src/map/A10_A12 --resolution 0.1 --map_width 2048 --map_height 2048 --min_height 0.0 --max_height 5.0   : lệnh file in và file out từ pcd ra pmg và yaml

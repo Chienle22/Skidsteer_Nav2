@@ -1,0 +1,99 @@
+[0.049s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_costmap_2d -- -j20 -l20
+[0.140s] [  2%] Built target gtest_main
+[0.140s] [  4%] Built target gtest
+[0.173s] [ 21%] Built target nav2_costmap_2d_core
+[0.223s] [ 24%] Built target array_parser_test
+[0.228s] [ 26%] Built target nav2_costmap_2d_markers
+[0.229s] [ 29%] Built target copy_window_test
+[0.229s] [ 34%] Built target nav2_costmap_2d_cloud
+[0.230s] [ 34%] Built target costmap_bresenham_2d
+[0.230s] [ 36%] Built target declare_parameter_test
+[0.230s] [ 39%] Built target collision_footprint_test
+[0.231s] [ 41%] Built target costmap_filter_test
+[0.233s] [ 45%] Built target costmap_filter_service_test
+[0.233s] [ 46%] Built target costmap_convesion_test
+[0.235s] [ 48%] Built target order_layer
+[0.236s] [ 53%] Built target nav2_costmap_2d_client
+[0.238s] [ 56%] Built target dyn_params_tests
+[0.239s] [ 60%] Built target filters
+[0.243s] [ 63%] Built target plugin_api_order
+[0.257s] [ 73%] Built target layers
+[0.281s] [ 75%] Built target binary_filter_test
+[0.285s] [ 78%] Built target speed_filter_test
+[0.288s] [ 80%] Built target keepout_filter_test
+[0.301s] [ 85%] Built target denoise_layer_test
+[0.303s] [ 87%] Built target footprint_tests_exec
+[0.303s] [ 90%] Built target nav2_costmap_2d
+[0.315s] [ 92%] Built target obstacle_tests_exec
+[0.316s] [ 95%] Built target range_tests_exec
+[0.317s] [ 97%] Built target inflation_tests_exec
+[0.317s] [100%] Built target test_collision_checker_exec
+[0.335s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav2_costmap_2d -- -j20 -l20
+[0.339s] Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_costmap_2d
+[0.351s] -- Install configuration: "Release"
+[0.352s] -- Execute custom install script
+[0.353s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[0.353s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[0.353s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[0.353s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[0.354s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/array_parser.hpp
+[0.354s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
+[0.354s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
+[0.354s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
+[0.354s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
+[0.355s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
+[0.355s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[0.355s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[0.355s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp
+[0.355s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[0.355s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[0.355s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
+[0.355s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_math.hpp
+[0.355s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
+[0.355s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image_processing.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise_layer.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/exceptions.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_subscriber.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
+[0.356s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation.hpp
+[0.357s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation_buffer.hpp
+[0.357s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/obstacle_layer.hpp
+[0.357s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/range_sensor_layer.hpp
+[0.357s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/static_layer.hpp
+[0.357s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/voxel_layer.hpp
+[0.357s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib/liborder_layer.so
+[0.357s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[0.357s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[0.358s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[0.358s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml
+[0.358s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[0.358s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[0.358s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[0.358s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[0.359s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[0.359s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[0.359s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[0.359s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[0.359s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[0.359s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[0.359s] -- Symlinking: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[0.373s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[0.373s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[0.373s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_targets-extras.cmake
+[0.374s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.374s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[0.374s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[0.374s] -- Up-to-date symlink: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[0.375s] -- Up-to-date: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib/liblayers.so
+[0.376s] -- Up-to-date: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib/libfilters.so
+[0.376s] -- Up-to-date: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[0.377s] -- Up-to-date: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[0.377s] -- Up-to-date: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport.cmake
+[0.378s] -- Up-to-date: /home/chienle/Desktop/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport-release.cmake
+[0.382s] Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager:/home/chienle/Desktop/nav2_ws/install/nav2_util:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid:/home/chienle/Desktop/nav2_ws/install/nav2_msgs:/home/chienle/Desktop/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/nav2_ws/install/nav2_map_server/lib:/home/chienle/Desktop/nav2_ws/install/nav2_lifecycle_manager/lib:/home/chienle/Desktop/nav2_ws/install/nav2_util/lib:/home/chienle/Desktop/nav2_ws/install/nav2_voxel_grid/lib:/home/chienle/Desktop/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/chienle/Desktop/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav2_costmap_2d

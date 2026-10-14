@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs/nav_2d_msgs__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "nav_2d_msgs__rs::@d762d345670f4f8e655d",
+	"name" : "nav_2d_msgs__rs",
+	"paths" : 
+	{
+		"build" : "nav_2d_msgs__rs",
+		"source" : "/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs/nav_2d_msgs__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs/nav_2d_msgs__rs/CMakeFiles/nav_2d_msgs__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs/nav_2d_msgs__rs/CMakeFiles/nav_2d_msgs__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs/rosidl_generator_rs/nav_2d_msgs/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
