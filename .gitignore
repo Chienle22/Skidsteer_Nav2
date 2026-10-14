@@ -1,3 +1,9 @@
+# ROS 2 build folders & recursive patterns
+**/build/
+**/install/
+**/log/
 build/
+install/
+log/build/
 install/
 log/
