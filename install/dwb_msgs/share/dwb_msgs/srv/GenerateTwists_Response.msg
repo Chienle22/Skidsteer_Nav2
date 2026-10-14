@@ -1,1 +1,0 @@
-/home/chienle/Desktop/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/GenerateTwists_Response.msg

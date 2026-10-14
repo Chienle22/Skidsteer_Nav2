@@ -1,6 +1,0 @@
-Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/nav2_ws/install/nav_2d_msgs
-Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chienle/Desktop/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/nav2_ws/install/nav_2d_msgs
-Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav_2d_msgs -- -j20 -l20
-Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/nav2_ws/build/nav_2d_msgs -- -j20 -l20
-Invoking command in '/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav_2d_msgs
-Invoked command in '/home/chienle/Desktop/nav2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/nav2_ws/build/nav_2d_msgs

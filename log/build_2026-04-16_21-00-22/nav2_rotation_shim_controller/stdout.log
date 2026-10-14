@@ -1,7 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target nav2_rotation_shim_controller[0m
-[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
-[35m[1mConsolidate compiler generated dependencies of target gtest[0m
-[ 25%] Built target gtest_main
-[ 50%] Built target gtest
-[ 75%] Built target nav2_rotation_shim_controller
-[ 87%] [32mBuilding CXX object test/CMakeFiles/test_shim_controller.dir/test_shim_controller.cpp.o[0m

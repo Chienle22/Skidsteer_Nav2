@@ -1,1 +1,0 @@
-/home/chienle/Desktop/nav2_ws/build/dwb_msgs/rosidl_generator_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp

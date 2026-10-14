@@ -1,1 +1,0 @@
-/home/chienle/Desktop/nav2_ws/build/nav2_simple_commander/launch/waypoint_follower_example_launch.py

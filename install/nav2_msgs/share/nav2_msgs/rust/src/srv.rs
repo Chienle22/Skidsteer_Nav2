@@ -1,1 +1,0 @@
-/home/chienle/Desktop/nav2_ws/build/nav2_msgs/rosidl_generator_rs/nav2_msgs/rust/src/srv.rs

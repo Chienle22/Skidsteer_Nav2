@@ -1,7 +1,0 @@
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
-compilation terminated.
-gmake[2]: *** [CMakeFiles/collision_monitor_core.dir/build.make:76: CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o] Error 1
-gmake[2]: *** Waiting for unfinished jobs....
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
-compilation terminated.
-gmake[2]: *** [CMakeFiles/collision_monitor_core.dir/build.make:132: CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o] Error 1
