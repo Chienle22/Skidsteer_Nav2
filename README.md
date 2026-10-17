@@ -39,8 +39,25 @@ Launch the navigation2 navigation stack
 cd ~/Desktop/Skidsteer_Nav2/
 source install/setup.bash
 ros2 launch nav2_bringup bringup_launch.py
+```
 
 ### Terminal 3
+```bash
+cd ~/Desktop/Skidsteer_Nav2/
+source install/setup.bash
+ros2 launch nav2_bringup bringup_launch.py use_sim_time:=false  map:=/home/your_user/path_to_map
+```
+
+Example:
+```bash
+cd ~/Desktop/Skidsteer_Nav2/
+source install/setup.bash
+ros2 launch nav2_bringup bringup_launch.py use_sim_time:=false  map:=/home/chienle/Desktop/skid_robot_v2/src/mapping/map/A10_t2/A10_t2.yaml
+```
 
 ### Terminal 4
-
+```bash
+cd ~/Desktop/Skidsteer_Nav2/
+source install/setup.bash
+ros2 launch nav2_bringup rviz_launch.py 
+```
